@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(115, 157, 241);
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Add a generic font-family */
+  }
+  
+  .qr-scanner {
+    width: 50%; 
+    max-width: 600px; /*  a max-width for smaller screens */
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /*  a border-radius for a softer look */
+  }
+  
+  #image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* a border for better image separation */
+    border-radius: 5px; /* a border-radius for a softer look */
+  }
+  
+  h3, h5 {
+    color: #333; /* Change text color for better readability */
+    margin: 10px 0;
+  }
+  
+  h5 {
+    color: gray;
+  }
+  
